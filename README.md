@@ -13,6 +13,7 @@ PG-GrHDP
 │  Iterative.py - GrHDP method 
 │  model.py - System model
 │  network.py - Network structure
+|  utils.py - Data processing
 │  TrainCritic.m - Training neural network
 │  readme.md
 |
