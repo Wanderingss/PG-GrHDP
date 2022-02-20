@@ -9,10 +9,9 @@ if __name__ == '__main__':
     eng = matlab.engine.start_matlab()
 
     # 导入训练好的模型
-    TestPolicy = ValueIterative()
-    TestPolicy.Model.Player = torch.load('Player.ckpt')
-    TestPolicy.Model.Signal = torch.load('Signal.ckpt')
-    TestPolicy.Model.ValueFunction = torch.load('ValueFunction.ckpt')
+    TestPolicy.Model.Player = torch.load('./ModelData/Player.ckpt')
+    TestPolicy.Model.Signal = torch.load('./ModelData/Signal.ckpt')
+    TestPolicy.Model.ValueFunction = torch.load('./ModelData/ValueFunction.ckpt')
 
     # 查看训练好的模型响应曲线
     State = torch.tensor([[0.6,-0.6]])
