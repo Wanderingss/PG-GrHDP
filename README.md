@@ -7,6 +7,7 @@
 * scipy
 * matlab
 ## Directory Structure
+```
 PG-GrHDP
 │  main.py - Main script
 │  Iterative.py - GrHDP method 
@@ -16,3 +17,4 @@ PG-GrHDP
 │  readme.md
 |
 ├─ModelData_dir - Storage trained network model
+```
