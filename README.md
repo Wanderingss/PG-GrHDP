@@ -19,3 +19,5 @@ PG-GrHDP
 |
 ├─ModelData_dir - Storage trained network model
 ```
+## Notice
+For the method of calling matlab program by python program, please check https://blog.csdn.net/qq_34445388/article/details/123885287
